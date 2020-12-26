@@ -4,7 +4,7 @@ A plugin to utilize ChurchTools resources on a WordPress Website. At the moment,
 
 ## Installation
 
-To install the plugin, simply upload all files in this project into `wp-content/plugins/churchtools`. Rename the `settings-sample.json` into `settings.json` and insert the corresponding parameters:
+To install the plugin, simply upload all files from `src/plugin` into `wp-content/plugins/churchtools`. Rename the `settings-sample.json` into `settings.json` and insert the corresponding parameters:
 
 * `tenantName` is the name of your ChurchTools instance. In your ChurchTools url this is the part before church.tools, e.g. https://instance.church.tools.
 * `accessToken` is required if more calendars than the public one must be synchronized. We know, this is not a secure way to store tokens so feel free to find a more secure solution.
