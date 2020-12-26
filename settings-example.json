@@ -1,0 +1,10 @@
+{
+  "tenantName": "",
+  "accessToken": "",
+  "ignoreCert": true,
+  "eventCategoryIds": [
+    1
+  ],
+  "eventLookupFromDay": 0,
+  "eventLookupToDay": 90
+}
